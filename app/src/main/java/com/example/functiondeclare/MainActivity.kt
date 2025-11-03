@@ -100,5 +100,5 @@ fun MainBody(){
 @Composable
 fun PreviewBody(){
     MainBody()
-    Instagram()
+//    Instagram()
 }
