@@ -111,27 +111,37 @@ fun ProfileBody(){
                 }
 
             }
-            Row(modifier = Modifier.padding(top=15.dp)) {
-                Column() { Image( painter = painterResource(R.drawable.monkey),
+            Row(modifier = Modifier.padding(top=15.dp).fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
+                Column(horizontalAlignment = Alignment.CenterHorizontally) { Image( painter = painterResource(R.drawable.monkey),
                     contentDescription = null,
                     modifier = Modifier.size(55.dp)
-                        .clip(CircleShape)) }
-                Column() { Image( painter = painterResource(R.drawable.monkey),
+                        .clip(CircleShape))
+                    Text("Story 1")
+                }
+                Column(horizontalAlignment = Alignment.CenterHorizontally) { Image( painter = painterResource(R.drawable.monkey),
                     contentDescription = null,
                     modifier = Modifier.size(55.dp)
-                        .clip(CircleShape))}
-                Column() {Image( painter = painterResource(R.drawable.monkey),
+                        .clip(CircleShape))
+                    Text("Story 2")
+                }
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {Image( painter = painterResource(R.drawable.monkey),
                     contentDescription = null,
                     modifier = Modifier.size(55.dp)
-                        .clip(CircleShape)) }
-                Column() { Image( painter = painterResource(R.drawable.monkey),
+                        .clip(CircleShape))
+                    Text("Story 3")
+                }
+                Column(horizontalAlignment = Alignment.CenterHorizontally) { Image( painter = painterResource(R.drawable.monkey),
                     contentDescription = null,
                     modifier = Modifier.size(55.dp)
-                        .clip(CircleShape))}
-                Column() { Image( painter = painterResource(R.drawable.monkey),
+                        .clip(CircleShape))
+                    Text("Story 4")
+                }
+                Column(horizontalAlignment = Alignment.CenterHorizontally) { Image( painter = painterResource(R.drawable.monkey),
                     contentDescription = null,
                     modifier = Modifier.size(55.dp)
-                        .clip(CircleShape))}
+                        .clip(CircleShape))
+                    Text("Story 5")
+                }
             }
         }
     }
