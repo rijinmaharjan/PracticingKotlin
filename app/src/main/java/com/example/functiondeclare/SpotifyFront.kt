@@ -103,9 +103,9 @@ fun FrontPage() {
                         fontWeight = FontWeight.Bold, color = Color.White))
                 }
             }
-            Row() {}
-            Row() { }
-            Row() { }
+            Row( ) { }
+            Row( ) { }
+            Row( ) { }
 
         }
 
